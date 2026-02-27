@@ -93,3 +93,10 @@ protect it from being deleted).
 
 Great for development and debugging, but really bad to find this in production - so please never use that
 outside development.
+
+## Alternatively install into a local kind cluster from source
+
+To test the kubermatic-installer as well as the upgrade process locally, you can run the following script:
+```sh
+./hack/run-kind-installer.sh
+```
